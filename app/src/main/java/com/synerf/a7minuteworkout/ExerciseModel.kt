@@ -39,7 +39,7 @@ class ExerciseModel(
     fun getIsSelected(): Boolean {
         return isSelected
     }
-    fun setId(isSelected: Boolean) {
+    fun setIsSelected(isSelected: Boolean) {
         this.isSelected = isSelected
     }
 }
